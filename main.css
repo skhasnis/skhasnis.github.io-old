@@ -87,13 +87,9 @@ nav > ul > li > a {
     text-decoration: none;
 }
 
-a:hover { 
+a:hover { 	
 	color: #37b3e3;
  }
-
-a:active {
-	color: #37b3e3;
-}
 
 h1:hover {
 	color: #37b3e3;
@@ -105,12 +101,6 @@ h1 > a {
    	display: block;
     text-decoration: none;
  }
-
- .active { 
- 	text-transform: underline;
-
-  }
-
 
 h2 { 
 font-size: 20px;
@@ -156,5 +146,8 @@ footer {
   font-family: "Source Sans Pro", Adobe, sans-serif; 
 }
 
+.active {
+	text-decoration: underline;
+}
 
 
