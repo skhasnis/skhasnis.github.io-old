@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+/* Basic */
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 320px;
+		}
+
+	}
+
+	body {
+		background: white;
+	}
+
+		body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+			-moz-transition-delay: none !important;
+			-webkit-transition-delay: none !important;
+			-ms-transition-delay: none !important;
+			transition-delay: none !important;
+		}
+.centered {
+  			position: fixed;
+ 			top: 50%;
+  			left: 50%;
+ 		 	transform: translate(-50%, -50%);
+		}
+
+		.content { 
+		font-family: "Source Sans Pro", Adobe, sans-serif; 
+		 }
+
+
+		 h1 {
+ 	   		text-align: center;
+ 	   		font-size: 45px;
+		}
+
+		p { 
+			text-align: left;
+			font-size: 18px;
+		 }
+
+
+	 nav {
+  	background-color: transparent;
+    margin: 0;
+    overflow: hidden;
+    text-align: right;
+    font-family: "Source Sans Pro", Adobe, sans-serif; 
+	}
+
+
+	nav ul{
+    margin: 0px;
+    padding: 0px;
+	}
+
+	nav ul li {
+    display: inline-block;
+}
+
+
+/* Create a style for the first level items */
+nav > ul > li > a {
+    color: black;
+    background-color:transparent;
+    display: block;
+    line-height: 0.5em;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+  
+
+a:hover { 
+	color: #37b3e3;
+ }
+
+.active {
+	color: #37b3e3;
+}
+
+
+h1:hover {
+	color: #37b3e3;
+}
+
+h1 > a { 
+	color: black;
+    background-color:transparent;
+   	display: block;
+    text-decoration: none;
+ }
+
+
+
+h2 { 
+font-size: 20px;
+font-weight: normal;
+
+ }
+
+
+ .img-circle {
+ 	border-radius: 50%; 
+ }
+
+.container {
+    margin: 20px 20px 0 0;  
+    padding-left: 100px;
+    padding-right:100px;
+    overflow: auto
+}
+.thumb {
+    float: left;
+}
+.thumb img {
+   padding-right: 30px;
+   overflow: auto;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 35px;
+    padding: 9px;
+    background: transparent;
+    font-family: "Source Sans Pro", Adobe, sans-serif; 
+    padding-left: 110px;
+}
+
+
+
+ul.icons {
+			cursor: default;
+			list-style-type: none;
+			padding-left: 0;
+			margin-top: -0.675em;
+		}
+
+		ul.icons li {
+				display: inline-block;
+				font-family: "Source Sans Pro", Adobe, sans-serif; 
+				list-style-type: none;
+			}
+
+			ul.icons > li > a { 
+				color: black;
+    			background-color:transparent;
+   				display: block;
+    			line-height: 0.5em;
+   				padding: 1em 1em;
+    			text-decoration: none;
+			 }
+
+		ul.icons > li > a:hover {
+			color: #37b3e3;
+		}
+
+
+footer {
+  /*position: fixed;*/
+  overflow: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: transparent;
+  text-align: center;
+  font-family: "Source Sans Pro", Adobe, sans-serif; 
+}
+
+
+.active {
+	text-decoration: underline;
+}
+
+
+.wrapper {
+  display: inline-grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 250px;
+  background-color: #fff;
+  overflow-wrap: normal;
+
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 25px;
+  transform: rotateZ(0deg);
+}
+
+.box {
+  padding-left: 100px; 
+  color: #fff;
+  padding: 20px;
+  font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
