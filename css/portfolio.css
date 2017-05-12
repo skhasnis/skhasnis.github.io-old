@@ -193,14 +193,12 @@ footer {
 .wrapper {
   display: inline-grid;
   grid-template-columns: 100px 100px 100px;
-  grid-gap: 250px;
+  grid-column-gap: 250px;
   background-color: #fff;
   overflow-wrap: normal;
 
   padding-right: 100px;
   padding-left: 100px;
-  padding-bottom: 25px;
-  transform: rotateZ(0deg);
 }
 
 .box {
@@ -211,10 +209,4 @@ footer {
 }
 
 
-
-
-
-
-
-
-
+.
