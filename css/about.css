@@ -176,7 +176,7 @@ footer {
   /*position: fixed;*/
   overflow: auto;
   right: 0;
-  bottom: 0;
+  bottom: 50;
   left: 0;
   padding: 1rem;
   background-color: transparent;
